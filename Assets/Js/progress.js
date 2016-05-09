@@ -26,7 +26,7 @@ $(".fa-plus").click(function() {
 });
 
 // sort items on the list with a click and drag
-$(function() {
+$(document).ready(function() {
   $( "#sortable" ).sortable();
   $( "#sortable" ).disableSelection();
 });
